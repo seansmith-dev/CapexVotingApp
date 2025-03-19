@@ -22,6 +22,8 @@ import UpdateProjects from './pages/CreateReadUpdateDelete/ModifyProjects.js';
 import { Update } from '@mui/icons-material';
 import CreateProject from './pages/CreateProject/CreateProject.js';
 import Edit from './pages/Edit/Edit.js';
+import AdminLogin from "./pages/admin/Login";
+
 
 function App() {
   return (
@@ -47,6 +49,7 @@ function App() {
             <Route path="/update-projects" element={<UpdateProjects/>} />
             <Route path="/create" element={<CreateProject/>} />
             <Route path="/edit/:project_number" element={<Edit/>} />
+            <Route path="/admin/login" element={<AdminLogin />} />
 
           </Routes>
         </main>
