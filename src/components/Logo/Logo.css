@@ -1,0 +1,15 @@
+
+
+/* ../../assets/logo.png */
+/* background-size: contain; */
+img{
+    max-width: 100%; 
+    
+}
+
+.logo{
+    object-fit:cover; 
+    height: 60px; 
+    display: block;
+}
+
